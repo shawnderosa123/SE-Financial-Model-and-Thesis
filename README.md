@@ -1,150 +1,149 @@
-Sea Limited Financial Analysis & Market Data Project
-Overview
-This project combines financial modeling, market data analysis, and business intelligence tools to evaluate Sea Limited as a potential undervalued equity investment relative to the broader market represented by SPY.
-Using MySQL, Excel, and Power BI, I built a workflow that imports and structures historical market data, performs valuation and regression analysis, and visualizes key financial trends through interactive dashboards.
+Project Overview
+
+This project combines financial modeling, forecasting, data analytics, and business intelligence tools to evaluate the intrinsic value, risk profile, and future growth potential of Sea Limited (NYSE: SE).
+
+Using Excel, MySQL, and Power BI, I developed an end-to-end financial analysis platform that integrates historical market data, valuation modeling, scenario analysis, and interactive dashboards to support data-driven investment decisions.
+
+The project demonstrates skills commonly used in Financial Planning & Analysis (FP&A), Corporate Finance, Equity Research, and Financial Analyst roles.
 
 Project Objectives
-
-
-Analyze the historical performance of Sea Limited relative to the S&P 500
-
-
-Identify long-term valuation opportunities using DCF modeling
-
-
-Measure diversification characteristics and market correlation
-
-
-Evaluate operational performance through financial statement analysis
-
-
-Visualize trends and investment insights using Power BI dashboards
-
-
-
+Assess Sea Limited's intrinsic value using Discounted Cash Flow (DCF) analysis
+Forecast future financial performance through scenario modeling
+Evaluate risk and market sensitivity using regression analysis
+Analyze historical stock performance and market trends
+Build interactive dashboards to communicate financial insights
+Automate data storage and reporting through MySQL
 Tools & Technologies
-
-
-MySQL – Data storage, transformation, and rolling average calculations
-
-
-Microsoft Excel – Financial modeling and DCF valuation
-
-
-Power BI – Interactive dashboards and visual analytics
-
-
-Financial Analysis – Ratio analysis, profitability evaluation, and trend forecasting
-
-
-
-Key Features
-Market Data Engineering
-
-
-Imported and structured historical monthly price data for Sea Limited and SPY into MySQL
-
-
-Built SQL queries to calculate rolling moving averages and comparative trend performance
-
-
-Analyzed market correlation and relative performance through data visualization dashboards in Power BI
-
-
-Valuation Modeling
-
-
-Constructed Excel-based discounted cash flow (DCF) models to estimate intrinsic value
-
-
-Identified a potential margin of safety of approximately 49%
-
-
-Evaluated projected cash flows, discount rates, and long-term growth assumptions
-
-
-Regression & Beta Analysis
-
-
-Developed regression models estimating market beta relative to the S&P 500
-
-
-Identified a low correlation of approximately 38%, highlighting diversification characteristics
-
-
-Assessed systematic risk exposure and volatility behavior
-
-
-Financial Statement Analysis
-
-
-Conducted ratio-based performance analysis on profitability, liquidity, and operating efficiency
-
-
-Performed trend analysis on revenue growth, margins, and cost structures
-
-
-Evaluated long-term financial sustainability and operational performance
-
-
-
-Dashboard Highlights
-The Power BI dashboards include:
-
-
-Historical price trend comparisons
-
-
-Rolling moving average analysis
-
-
-Correlation and beta visualization
-
-
-Revenue and margin trend analysis
-
-
-Financial ratio performance tracking
-
-
-Investment valuation summaries
-
-
-
-Skills Demonstrated
-
-
 Financial Modeling
-
-
-Equity Valuation
-
-
-DCF Analysis
-
-
-SQL Data Management
-
-
+Microsoft Excel
+Discounted Cash Flow (DCF)
+Revenue Forecasting
+Free Cash Flow Projections
+Sensitivity Analysis
+Scenario Analysis
+Data Analytics
+MySQL
+SQL Queries
+Window Functions
+Rolling Moving Averages
+Business Intelligence
+Power BI
+DAX
+KPI Dashboards
 Data Visualization
+Statistical Analysis
+Regression Modeling
+Beta Calculation
+Monte Carlo Simulation
+Risk Assessment
+Key Analyses Performed
+1. Discounted Cash Flow (DCF) Valuation
 
+Built a multi-year DCF model to estimate Sea Limited's intrinsic value by forecasting:
 
-Regression Analysis
+Revenue Growth
+Operating Margins
+Free Cash Flow
+Weighted Average Cost of Capital (WACC)
+Terminal Value
 
+Results indicated a significant discount to estimated intrinsic value, suggesting a potential margin of safety for investors.
 
-Market Research
+2. Scenario Analysis
 
+Developed multiple valuation scenarios to evaluate the impact of changing assumptions:
 
+Scenario	Description
+Bear Case	Lower growth and profitability assumptions
+Base Case	Management guidance and historical trends
+Bull Case	Accelerated growth and margin expansion
+
+This analysis highlights how valuation changes under varying business conditions.
+
+3. Monte Carlo Simulation
+
+Created a Monte Carlo model to generate thousands of potential future stock price outcomes.
+
+The simulation was used to:
+
+Quantify valuation uncertainty
+Estimate downside risk
+Evaluate upside potential
+Produce probability-based valuation ranges
+4. Regression & Risk Analysis
+
+Performed statistical analysis comparing Sea Limited's returns against the S&P 500 ETF (SPY).
+
+Metrics evaluated:
+
+Beta
+Correlation
+R-Squared
+Market Sensitivity
+
+This analysis provided insight into systematic risk and diversification characteristics.
+
+5. MySQL Data Warehouse
+
+Designed a relational database to store:
+
+Historical stock prices
+Moving averages
+Scenario outputs
+Monte Carlo results
+
+SQL queries were used to automate calculations and prepare datasets for dashboard reporting.
+
+6. Power BI Dashboard Development
+
+Developed interactive dashboards to visualize:
+
+Historical stock performance
+Moving averages
+Valuation outputs
+Scenario analysis
+Monte Carlo distributions
+Key financial metrics
+
+The dashboards allow users to quickly assess performance trends and valuation assumptions.
+
+Key Skills Demonstrated
+Financial Analysis
 Financial Statement Analysis
+Valuation Modeling
+Forecasting
+Investment Research
+Scenario Planning
+Technical Skills
+Excel Financial Modeling
+SQL Database Management
+Power BI Dashboard Development
+DAX Calculations
+Data Visualization
+Quantitative Analysis
+Regression Analysis
+Monte Carlo Simulation
+Risk Modeling
+Statistical Forecasting
+Business Impact
 
+This project demonstrates how financial analysts can integrate valuation techniques, forecasting models, database management, and business intelligence tools to support investment and strategic decision-making.
 
-Business Intelligence Reporting
+The workflow mirrors many responsibilities found in FP&A, Corporate Finance, Equity Research, and Financial Analyst positions by combining:
 
-
-Integrate forecasting models for future revenue and earnings estimates
-
+Financial forecasting
+Data management
+Performance reporting
+Scenario planning
+Risk assessment
+Executive-level dashboarding
+Repository Contents
+Excel Model: DCF valuation, forecasting assumptions, and Monte Carlo simulation
+SQL Scripts: Database creation, data imports, and analytical queries
+Power BI Dashboard: Interactive visualizations and KPI reporting
+Investment Thesis: Comprehensive analysis of Sea Limited's business performance and valuation
 Author
 
 Shawn De Rosa
-Aspiring Financial Analyst | FP&A & Equity Research Focus
+Finance Graduate | Financial Risk Analyst | FP&A & Financial Analytics Enthusiast
 Passionate about combining financial analysis, SQL, and data visualization to generate actionable investment insights.
